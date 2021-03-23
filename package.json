@@ -1,17 +1,18 @@
 {
-  "name": "@pancakeswap-libs/sdk",
+  "name": "@spookyswap-libs/sdk",
   "license": "MIT",
-  "version": "1.0.1",
-  "description": "🛠 An SDK for building applications on top of pancakeswap.",
+  "version": "1.0",
+  "description": "🛠 An SDK for building applications on top of spookyswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+  "repository": "https://github.com/SpookySwap/SpookySwap-sdk.git",
   "keywords": [
-    "pancakeswap",
-    "ethereum"
+    "spookyswap",
+    "ethereum",
+    "fantom"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {

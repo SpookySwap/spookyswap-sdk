@@ -4,7 +4,9 @@
   "version": "0.1.0",
   "description": "🛠 An SDK for building applications on top of spookyswap.",
   "main": "dist/index.js",
+  "module": "dist/sdk.esm.js",
   "typings": "dist/index.d.ts",
+  "private": true,
   "files": [
     "dist"
   ],
@@ -14,7 +16,6 @@
     "ethereum",
     "fantom"
   ],
-  "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "lint:fix": "tsdx lint src test --fix",

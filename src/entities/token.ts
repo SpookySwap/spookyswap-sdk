@@ -66,7 +66,7 @@ export const WETH = {
   ),
   [ChainId.FTMTESTNET]: new Token(
     ChainId.FTMTESTNET,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    '0xf1277d1ed8ad466beddf92ef448a132661956621',
     18,
     'WFTM',
     'Wrapped FTM'

@@ -1,35 +1,38 @@
 {
-  "name": "@pancakeswap-libs/sdk",
+  "name": "spookyswap-sdk",
   "license": "MIT",
-  "version": "1.0.1",
-  "description": "🛠 An SDK for building applications on top of pancakeswap.",
+  "version": "0.1.0",
+  "description": "🛠 An SDK for building applications on top of spookyswap.",
   "main": "dist/index.js",
+  "module": "dist/sdk.esm.js",
   "typings": "dist/index.d.ts",
+  "private": true,
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+  "repository": "https://github.com/SpookySwap/SpookySwap-sdk.git",
   "keywords": [
-    "pancakeswap",
-    "ethereum"
+    "spookyswap",
+    "ethereum",
+    "fantom"
   ],
-  "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "lint:fix": "tsdx lint src test --fix",
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
-    "prepublishOnly": "tsdx build"
+    "prepublishOnly": "tsdx build",
+    "prepare": "rm -rf ./dist && yarn build"
   },
   "dependencies": {
-    "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",
-    "toformat": "^2.0.0"
+    "toformat": "^2.0.0",
+    "@uniswap/v2-core": "1.0.0"
   },
   "peerDependencies": {
     "@ethersproject/address": "^5.0.0-beta",

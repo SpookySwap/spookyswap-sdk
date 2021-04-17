@@ -1,7 +1,7 @@
 {
   "name": "spookyswap-sdk",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of spookyswap.",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",

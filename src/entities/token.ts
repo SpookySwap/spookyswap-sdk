@@ -70,5 +70,19 @@ export const WETH = {
     18,
     'WFTM',
     'Wrapped FTM'
+  ),
+  [ChainId.BSC]: new Token(
+    ChainId.BSC,
+    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    18,
+    'WBNB',
+    'Wrapped BNB'
+  ),
+  [ChainId.ETHMAINNET]: new Token(
+    ChainId.ETHMAINNET,
+    '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    18,
+    'WETH',
+    'Wrapped Ether'
   )
 }

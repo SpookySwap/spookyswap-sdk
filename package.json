@@ -1,5 +1,6 @@
 {
   "name": "spookyswap-sdk",
+  "foo": "foo",
   "license": "MIT",
   "version": "1.0.0",
   "description": "🛠 An SDK for building applications on top of spookyswap.",

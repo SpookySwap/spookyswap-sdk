@@ -56,13 +56,23 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
   }
 }
 
-export const WETH = {
+//Ensures that newly added tokens have corresponding Wrapped Addresses
+type TokenMap = { [exchange in ChainId]: Token };
+
+export const WETH: TokenMap = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
     '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
     18,
     'WFTM',
     'Wrapped FTM'
+  ),
+  [ChainId.BITTORRENT_MAINNET]: new Token(
+    ChainId.BITTORRENT_MAINNET,
+    '0x23181f21dea5936e24163ffaba4ea3b316b57f3c',
+    18,
+    'WBTT',
+    'Wrapped Bittorrent'
   ),
   [ChainId.FTMTESTNET]: new Token(
     ChainId.FTMTESTNET,

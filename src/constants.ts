@@ -8,7 +8,8 @@ export enum ChainId {
   BITTORRENT_MAINNET = 199,
   FTMTESTNET = 4002,
   ETHMAINNET = 1,
-  BSC = 56
+  BSC = 56,
+  EON_MAINNET = 7332
 }
 
 export enum TradeType {

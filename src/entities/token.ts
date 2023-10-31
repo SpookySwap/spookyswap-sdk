@@ -74,6 +74,14 @@ export const WETH: TokenMap = {
     'WBTT',
     'Wrapped Bittorrent'
   ),
+  [ChainId.EON_MAINNET]: new Token(
+    ChainId.EON_MAINNET,
+    '0xF5cB8652a84329A2016A386206761f455bCEDab6',
+    18,
+    'WZEN',
+    'Wrapped ZEN'
+  ),
+  
   [ChainId.FTMTESTNET]: new Token(
     ChainId.FTMTESTNET,
     '0xf1277d1Ed8AD466beddF92ef448A132661956621',
